@@ -21,7 +21,7 @@ int main() {
     for(int i = 0; i < 4; i++){
         float sum = 0;
         for (int j = 0; j < 4; j++) {
-            sum += M[i][j] * V[i];
+            sum += M[i][j] * V[j];
         }
         R[i] = sum;
     }
